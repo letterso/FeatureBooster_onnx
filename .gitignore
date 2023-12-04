@@ -8,3 +8,4 @@ extractors/orbslam2_features/lib
 extractors/orbslam3_features/build
 extractors/orbslam3_features/lib
 onnx_runner/build
+assets
