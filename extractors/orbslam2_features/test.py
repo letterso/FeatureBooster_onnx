@@ -10,7 +10,7 @@ sys.path.append("./lib/")
 from orbslam2_features import ORBextractor
 
 # read image 
-img = cv2.imread('../../assets/sacre_coeur1.jpg',0)
+img = cv2.imread('../../qualitative/img2/1.jfif',0)
 
 # main settings 
 num_features=2000

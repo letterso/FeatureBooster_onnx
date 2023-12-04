@@ -44,7 +44,7 @@ def normalize_keypoints(keypoints, image_shape):
 def export_onnx(
     descriptor="ORB+Boost-B",
     extractor_path=None,
-    img_path="assets/sacre_coeur1.jpg",
+    img_path="qualitative/img2/1.jfif",
 ):
     feature_extractor = ORBextractor(3000, 1.2, 8)
     image = cv2.imread(img_path)
