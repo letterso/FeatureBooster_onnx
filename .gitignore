@@ -3,3 +3,8 @@ __pycache__
 hpatches_sequences/hpatches-sequences-release*
 hpatches_sequences/cache
 hpatches_sequences/hseq.pdf
+extractors/orbslam2_features/build
+extractors/orbslam2_features/lib
+extractors/orbslam3_features/build
+extractors/orbslam3_features/lib
+onnx_runner/build
