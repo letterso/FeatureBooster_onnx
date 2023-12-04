@@ -10,12 +10,12 @@ sys.path.append("./lib/")
 from orbslam2_features import ORBextractor
 
 # read image 
-img = cv2.imread('./kitti06-436.png',cv2.IMREAD_COLOR)
+img = cv2.imread('../../assets/sacre_coeur1.jpg',0)
 
 # main settings 
 num_features=2000
 num_levels=8
-scale_factor=2
+scale_factor=1.2
 
 # declare ORB extractor
 orb_extractor = ORBextractor(num_features, scale_factor, num_levels)
@@ -52,8 +52,6 @@ if des is not None:
 # keypoint = cv2.KeyPoint()
 # print('keypoint type:',type(keypoint))
 # print('keypoint kps[0]:',type(kps[0]))
-
-
 
 imgDraw = cv2.drawKeypoints(img, kps2, None, color=(0,255,0), flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
 
