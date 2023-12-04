@@ -42,7 +42,7 @@ include_directories(
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 
-add_subdirectory(pybind11)
+add_subdirectory(pybind11-2.11.1)
 
 pybind11_add_module(orbslam2_features orb_extractor.cpp ORBextractor.cpp)
 target_link_libraries(orbslam2_features PRIVATE
